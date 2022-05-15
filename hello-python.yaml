@@ -24,6 +24,10 @@ spec:
         image: m3t0sh1/hello-python:latest
         ports:
         - containerPort: 8080
+        readinessProbe:
+          httpGet:
+            path: /hello
+            port: 8080
 
 ---
 
