@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: m3t0sh1/hello-python:6
+        image: m3t0sh1/hello-python:latest
         ports:
         - containerPort: 8080
 
